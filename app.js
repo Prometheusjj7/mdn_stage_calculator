@@ -5,7 +5,7 @@ const selectedProducts = {};  // productId → quantity (products)
 // partners is defined in data.js
 let selectedPartner = null;   // current partner object or null
 let showFinancialDetails = localStorage.getItem('showFinancialDetails') === 'true';
-
+let searchQuery = '';
 // ===================== HELPERS =====================
 function getMat(id) {
     return materials.find(m => m.id === id);
@@ -86,7 +86,10 @@ function renderStageList() {
 
     const stages = [1, 2, 3];
     stages.forEach(stage => {
-        const stageComps = components.filter(c => c.stage === stage);
+        const stageComps = components.filter(c => 
+            c.stage === stage && 
+            (searchQuery === '' || c.name.toLowerCase().includes(searchQuery))
+        );
         if (stageComps.length === 0) return;
 
         const stageHeader = document.createElement('div');
@@ -107,18 +110,22 @@ function renderServicesList() {
     const list = document.getElementById('servicesList');
     list.innerHTML = '';
 
-    if (services.length === 0) {
+    const filteredServices = services.filter(svc => 
+        searchQuery === '' || svc.name.toLowerCase().includes(searchQuery)
+    );
+
+    if (filteredServices.length === 0) {
         list.classList.add('empty-category');
         const msg = document.createElement('div');
         msg.className = 'accordion-empty-msg';
-        msg.textContent = 'Nenhum serviço disponível';
+        msg.textContent = searchQuery === '' ? 'Nenhum serviço disponível' : 'Nenhum serviço encontrado';
         list.appendChild(msg);
         return;
     }
 
     list.classList.remove('empty-category');
 
-    services.forEach(svc => {
+    filteredServices.forEach(svc => {
         const row = createServiceRow(svc);
         list.appendChild(row);
     });
@@ -130,17 +137,21 @@ function renderProductsList() {
     const list = document.getElementById('productsList');
     list.innerHTML = '';
 
-    if (products.length === 0) {
+    const filteredProducts = products.filter(prod => 
+        searchQuery === '' || prod.name.toLowerCase().includes(searchQuery)
+    );
+
+    if (filteredProducts.length === 0) {
         list.classList.add('empty-category');
         const msg = document.createElement('div');
         msg.className = 'accordion-empty-msg';
-        msg.textContent = 'Nenhum produto disponível';
+        msg.textContent = searchQuery === '' ? 'Nenhum produto disponível' : 'Nenhum produto encontrado';
         list.appendChild(msg);
         return;
     }
 
     list.classList.remove('empty-category');
-    products.forEach(prod => {
+    filteredProducts.forEach(prod => {
         const row = createItemRow(prod, selectedProducts, prod.sellPrice, prod.id);
         list.appendChild(row);
     });
@@ -570,6 +581,23 @@ financialToggleEl.addEventListener('change', (e) => {
     showFinancialDetails = e.target.checked;
     localStorage.setItem('showFinancialDetails', showFinancialDetails);
     renderUnifiedSummary();
+});
+
+// Search functionality
+document.getElementById('sidebarSearch').addEventListener('input', (e) => {
+    searchQuery = e.target.value.toLowerCase().trim();
+    renderSidebar();
+    
+    // Auto open accordions if there's a search query
+    if (searchQuery !== '') {
+        document.querySelectorAll('.accordion-content').forEach(content => {
+            if (!content.classList.contains('open')) {
+                content.classList.add('open');
+                const arrow = content.previousElementSibling.querySelector('.accordion-arrow');
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        });
+    }
 });
 
 // Initial render

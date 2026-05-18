@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Calculadora de craft para MDN MEC — calcule os materiais e lucro de cada componente.">
-    <title>MDN MEC — Calculadora de Craft</title>
+    <meta name="description" content="Calculadora de craft para a oficina mecânica — calcule os materiais e lucro de cada componente.">
+    <title>Mechanic Craft Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
@@ -20,8 +20,12 @@
             <!-- LEFT SIDEBAR — Accordion Menu -->
             <aside class="sidebar" id="sidebar">
                 <div class="sidebar-header">
-                    <h1 class="sidebar-title">MDN MEC</h1>
-                    <span class="sidebar-subtitle">Calculadora</span>
+                    <img src="assets/images/logo.png" alt="Auto Repair Logo" class="sidebar-logo">
+                </div>
+
+                <!-- Search Bar -->
+                <div class="sidebar-search-container">
+                    <input type="text" id="sidebarSearch" class="sidebar-search" placeholder="Pesquisar itens...">
                 </div>
 
                 <!-- Accordion: Serviços -->
@@ -139,7 +143,11 @@
     </div>
 
     <!-- Data first, then app logic -->
-    <script src="data.js"></script>
+    <script src="data/materials.js"></script>
+    <script src="data/components.js"></script>
+    <script src="data/mechanic_services.js"></script>
+    <script src="data/products.js"></script>
+    <script src="data/partners.js"></script>
     <script src="app.js"></script>
 </body>
 
