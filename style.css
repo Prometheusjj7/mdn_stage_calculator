@@ -10,19 +10,19 @@
     --bg-body: #0a0a0a;
     --bg-panel: #171717;
     --bg-panel-lighter: #262626;
-    --bg-item-hover: rgba(251, 146, 60, 0.06);
-    --bg-item-selected: rgba(251, 146, 60, 0.12);
-    --border-panel: rgba(255, 255, 255, 0.06);
-    --text-primary: #f5f5f5;
+    --bg-item-hover: rgba(227, 204, 161, 0.06);
+    --bg-item-selected: rgba(227, 204, 161, 0.12);
+    --border-panel: rgba(227, 204, 161, 0.1);
+    --text-primary: #f0ebe1;
     --text-secondary: #a3a3a3;
     --text-muted: #737373;
-    --accent-main: #fb923c;
-    --accent-main-soft: rgba(251, 146, 60, 0.15);
-    --accent-main-glow: rgba(251, 146, 60, 0.25);
+    --accent-main: #e3cca1;
+    --accent-main-soft: rgba(227, 204, 161, 0.15);
+    --accent-main-glow: rgba(227, 204, 161, 0.25);
     --accent-red: #ef5350;
     --accent-red-soft: rgba(239, 83, 80, 0.12);
     --accent-green: #4ade80;
-    --accent-orange: #fb923c;
+    --accent-orange: #e3cca1;
     --sidebar-width: 300px;
     --right-sidebar-width: 250px;
 }
@@ -107,8 +107,8 @@ body {
 }
 
 .sidebar-search:focus {
-    border-color: rgba(251, 146, 60, 0.4);
-    box-shadow: 0 0 0 2px rgba(251, 146, 60, 0.1);
+    border-color: rgba(227, 204, 161, 0.4);
+    box-shadow: 0 0 0 2px rgba(227, 204, 161, 0.1);
 }
 
 .sidebar-search::placeholder {
@@ -143,7 +143,7 @@ body {
 }
 
 .accordion-header:hover {
-    background: rgba(251, 146, 60, 0.06);
+    background: rgba(227, 204, 161, 0.06);
     color: var(--text-primary);
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .accordion-count:not(:empty)[data-has="true"] {
-    background: rgba(251, 146, 60, 0.25);
+    background: rgba(227, 204, 161, 0.25);
     box-shadow: 0 0 8px var(--accent-main-glow);
 }
 
@@ -385,7 +385,7 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 8px;
-    background: rgba(251, 146, 60, 0.08);
+    background: rgba(227, 204, 161, 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,8 +415,8 @@ body {
     width: 22px;
     height: 22px;
     border-radius: 6px;
-    border: 1px solid rgba(251, 146, 60, 0.3);
-    background: rgba(251, 146, 60, 0.08);
+    border: 1px solid rgba(227, 204, 161, 0.3);
+    background: rgba(227, 204, 161, 0.08);
     color: var(--accent-main);
     font-size: 0.85rem;
     font-weight: 700;
@@ -430,7 +430,7 @@ body {
 }
 
 .qty-btn:hover {
-    background: rgba(251, 146, 60, 0.2);
+    background: rgba(227, 204, 161, 0.2);
     border-color: var(--accent-main);
 }
 
@@ -505,7 +505,7 @@ body {
 }
 
 .partner-group select:focus {
-    border-color: rgba(251, 146, 60, 0.4);
+    border-color: rgba(227, 204, 161, 0.4);
 }
 
 .partner-group select option {
@@ -540,7 +540,7 @@ body {
 }
 
 .discount-field:focus-within {
-    border-color: rgba(251, 146, 60, 0.4);
+    border-color: rgba(227, 204, 161, 0.4);
 }
 
 .discount-field input {
@@ -662,7 +662,7 @@ body {
 
 .toggle-label input:checked + .toggle-switch {
     background: var(--accent-main-soft);
-    border-color: rgba(251, 146, 60, 0.3);
+    border-color: rgba(227, 204, 161, 0.3);
 }
 
 .toggle-label input:checked + .toggle-switch::after {
@@ -789,7 +789,7 @@ body {
 }
 
 .summary-item:hover {
-    border-color: rgba(251, 146, 60, 0.15);
+    border-color: rgba(227, 204, 161, 0.15);
 }
 
 .summary-item-name {
@@ -938,7 +938,7 @@ body {
 }
 
 .profit-bar {
-    border-color: rgba(251, 146, 60, 0.15);
+    border-color: rgba(227, 204, 161, 0.15);
 }
 
 .total-left {
@@ -997,7 +997,7 @@ body {
 /* ========== STICKY TOTAL BAR ========== */
 .total-sticky-bar {
     border-top: 1px solid var(--border-panel);
-    background: linear-gradient(135deg, rgba(251, 146, 60, 0.08) 0%, var(--bg-panel-lighter) 100%);
+    background: linear-gradient(135deg, rgba(227, 204, 161, 0.08) 0%, var(--bg-panel-lighter) 100%);
     padding: 1rem 1.5rem;
     flex-shrink: 0;
 }
