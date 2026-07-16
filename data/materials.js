@@ -4,7 +4,8 @@ const MATERIAL = {
     REFINED_RUBBER: "refined_rubber",
     REFINED_GLASS: "refined_glass",
     REFINED_COPPER: "refined_copper",
-    REFINED_ALUMINUM: "refined_aluminum"
+    REFINED_ALUMINUM: "refined_aluminum",
+    ELECTRONIC_COMPONENT: "electronic_component"
 };
 
 const materials = [
@@ -42,6 +43,12 @@ const materials = [
         id: MATERIAL.REFINED_ALUMINUM,
         name: "Alumínio Refinado",
         image: "assets/images/refined-aluminum.png",
+        price: 10
+    },
+    {
+        id: MATERIAL.ELECTRONIC_COMPONENT,
+        name: "Componente Eletrônico",
+        image: "assets/images/electronic-component.png",
         price: 10
     }
 ];
