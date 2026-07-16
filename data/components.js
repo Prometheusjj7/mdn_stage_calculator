@@ -28,7 +28,8 @@ const components = [
             { id: MATERIAL.REFINED_COPPER, quantity: 100 },
             { id: MATERIAL.REFINED_PLASTIC, quantity: 100 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 100 },
-            { id: MATERIAL.REFINED_ALUMINUM, quantity: 100 }
+            { id: MATERIAL.REFINED_ALUMINUM, quantity: 100 },
+            { id: MATERIAL.ELECTRONIC_COMPONENTS, quantity: 200 }
         ]
     },
     {
