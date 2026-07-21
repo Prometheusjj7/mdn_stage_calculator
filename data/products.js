@@ -12,7 +12,7 @@ const products = [
         id: PRODUCT.LOCKPICK,
         name: "Lockpick",
         image: "assets/images/lockpick.png",
-        sellPrice: 250,
+        sellPrice: 300,
         ingredients: [
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 15 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 10 }
@@ -22,7 +22,7 @@ const products = [
         id: PRODUCT.ADVANCED_LOCKPICK,
         name: "Lockpick Avançado",
         image: "assets/images/lockpick_advanced.png",
-        sellPrice: 500,
+        sellPrice: 600,
         ingredients: [
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 30 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 20 }
@@ -32,7 +32,7 @@ const products = [
         id: PRODUCT.ENGINE_REPAIR_KIT,
         name: "Kit de Reparo de Motor",
         image: "assets/images/engine_repair_kit.png",
-        sellPrice: 2500,
+        sellPrice: 3000,
         ingredients: []
     },
     {
