@@ -22,10 +22,20 @@ const materials = [
         price: 10
     },
     {
+        id: MATERIAL.PLASTIC,
+        name: "Plástico",
+        price: 5
+    },
+    {
         id: MATERIAL.REFINED_SCRAP,
         name: "Sucata Refinada",
         image: "assets/images/refined-scrap.png",
         price: 10
+    },
+    {
+        id: MATERIAL.SCRAP,
+        name: "Sucata",
+        price: 5
     },
     {
         id: MATERIAL.REFINED_RUBBER,
@@ -34,10 +44,20 @@ const materials = [
         price: 10
     },
     {
+        id: MATERIAL.RUBBER,
+        name: "Borracha",
+        price: 5
+    },
+    {
         id: MATERIAL.REFINED_GLASS,
         name: "Vidro Refinado",
         image: "assets/images/refined-glass.png",
         price: 10
+    },
+    {
+        id: MATERIAL.GLASS,
+        name: "Vidro",
+        price: 5
     },
     {
         id: MATERIAL.REFINED_COPPER,
@@ -46,10 +66,20 @@ const materials = [
         price: 10
     },
     {
+        id: MATERIAL.COPPER,
+        name: "Cobre",
+        price: 5
+    },
+    {
         id: MATERIAL.REFINED_ALUMINUM,
         name: "Alumínio Refinado",
         image: "assets/images/refined-aluminum.png",
         price: 10
+    },
+    {
+        id: MATERIAL.ALUMINUM,
+        name: "Alumínio",
+        price: 5
     },
     {
         id: MATERIAL.ELECTRONIC_COMPONENT,
