@@ -1,9 +1,15 @@
 const MATERIAL = {
+    PLASTIC: "plastic",
     REFINED_PLASTIC: "refined_plastic",
+    SCRAP: "scrap",
     REFINED_SCRAP: "refined_scrap",
+    RUBBER: "rubber",
     REFINED_RUBBER: "refined_rubber",
+    GLASS: "glass",
     REFINED_GLASS: "refined_glass",
+    COPPER: "copper",
     REFINED_COPPER: "refined_copper",
+    ALUMINUM: "aluminum",
     REFINED_ALUMINUM: "refined_aluminum",
     ELECTRONIC_COMPONENT: "electronic_component"
 };
