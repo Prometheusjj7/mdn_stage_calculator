@@ -106,7 +106,7 @@ const components = [
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
-            { id: MATERIAL.REFINED_SCRAP, quantity: 200 },
+            { id: MATERIAL.SCRAP, quantity: 200 },
             { id: MATERIAL.REFINED_COPPER, quantity: 200 }
         ]
     },
