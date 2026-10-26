@@ -23,7 +23,7 @@ const components = [
         name: "ECU",
         image: "assets/images/ecu_stage1.png",
         stage: STAGE.STAGE_1,
-        sellPrice: 9000,
+        sellPrice: 350,
         ingredients: [
             { id: MATERIAL.REFINED_COPPER, quantity: 100 },
             { id: MATERIAL.REFINED_PLASTIC, quantity: 100 },
@@ -37,7 +37,7 @@ const components = [
         name: "Kit de Freio",
         image: "assets/images/brake_kit.png",
         stage: STAGE.STAGE_2,
-        sellPrice: 16500,
+        sellPrice: 280,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 240 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 240 },
@@ -51,7 +51,7 @@ const components = [
         name: "Filtro de Ar",
         image: "assets/images/sport_air_filter.png",
         stage: STAGE.STAGE_2,
-        sellPrice: 11280,
+        sellPrice: 490,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
@@ -64,7 +64,7 @@ const components = [
         name: "Escapamento Esportivo",
         image: "assets/images/sport_exhaust.png",
         stage: STAGE.STAGE_2,
-        sellPrice: 18000,
+        sellPrice: 280,
         ingredients: [
             { id: MATERIAL.REFINED_SCRAP, quantity: 500 },
             { id: MATERIAL.REFINED_COPPER, quantity: 500 },
@@ -76,7 +76,7 @@ const components = [
         name: "Turbina",
         image: "assets/images/big_turbo.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 22560,
+        sellPrice: 490,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 400 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 400 },
@@ -89,7 +89,7 @@ const components = [
         name: "Intercooler",
         image: "assets/images/intercooler.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 11280,
+        sellPrice: 350,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
@@ -102,7 +102,7 @@ const components = [
         name: "Kit de Suspensão",
         image: "assets/images/suspension_5.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 11280,
+        sellPrice: 350,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
@@ -115,7 +115,7 @@ const components = [
         name: "Embreagem Esportiva",
         image: "assets/images/racing_clutch.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 11280,
+        sellPrice: 350,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
@@ -128,7 +128,7 @@ const components = [
         name: "Coletor de Admissão",
         image: "assets/images/intake_manifold.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 11280,
+        sellPrice: 210,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
@@ -141,7 +141,7 @@ const components = [
         name: "Sistema de Combustível",
         image: "assets/images/fuel_system_upgrade.png",
         stage: STAGE.STAGE_3,
-        sellPrice: 11280,
+        sellPrice: 210,
         ingredients: [
             { id: MATERIAL.REFINED_PLASTIC, quantity: 200 },
             { id: MATERIAL.REFINED_RUBBER, quantity: 200 },
