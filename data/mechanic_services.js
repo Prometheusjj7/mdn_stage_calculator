@@ -50,7 +50,7 @@ const services = [
     {
         id: SERVICE.REPAIR_ECU,
         name: "Reparar ECU",
-        price: 900,
+        price: 110,
         ingredients: [
             { id: MATERIAL.REFINED_COPPER, quantity: 10 },
             { id: MATERIAL.REFINED_PLASTIC, quantity: 6 },
@@ -60,7 +60,7 @@ const services = [
     {
         id: SERVICE.REPAIR_FILTER,
         name: "Reparar Filtro",
-        price: 900,
+        price: 125,
         ingredients: [
             { id: MATERIAL.REFINED_RUBBER, quantity: 10 },
             { id: MATERIAL.REFINED_PLASTIC, quantity: 10 },
@@ -70,7 +70,7 @@ const services = [
     {
         id: SERVICE.REPAIR_INTERCOOLER,
         name: "Reparar Intercooler",
-        price: 900,
+        price: 145,
         ingredients: [
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 15 },
             { id: MATERIAL.REFINED_COPPER, quantity: 14 },
@@ -80,7 +80,7 @@ const services = [
     {
         id: SERVICE.REPAIR_COLETOR,
         name: "Reparar Coletor",
-        price: 900,
+        price: 145,
         ingredients: [
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 15 },
             { id: MATERIAL.REFINED_COPPER, quantity: 14 },
@@ -90,7 +90,7 @@ const services = [
     {
         id: SERVICE.REPAIR_BOMBA_COMBUSTIVEL,
         name: "Reparar Bomba de Combustível",
-        price: 900,
+        price: 145,
         ingredients: [
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 15 },
             { id: MATERIAL.REFINED_COPPER, quantity: 14 },
@@ -100,7 +100,7 @@ const services = [
     {
         id: SERVICE.REPAIR_TURBO,
         name: "Reparar Turbo",
-        price: 900,
+        price: 115,
         ingredients: [
             { id: MATERIAL.REFINED_SCRAP, quantity: 15 },
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 14 }
@@ -109,7 +109,7 @@ const services = [
     {
         id: SERVICE.REPAIR_EXAUSTOR,
         name: "Reparar Exaustor",
-        price: 900,
+        price: 115,
         ingredients: [
             { id: MATERIAL.REFINED_SCRAP, quantity: 15 },
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 14 }
@@ -118,7 +118,7 @@ const services = [
     {
         id: SERVICE.REPAIR_CLUTCH,
         name: "Reparar Embreagem",
-        price: 900,
+        price: 145,
         ingredients: [
             { id: MATERIAL.REFINED_SCRAP, quantity: 14 },
             { id: MATERIAL.REFINED_ALUMINUM, quantity: 14 },
@@ -128,7 +128,7 @@ const services = [
     {
         id: SERVICE.REPAIR_BRAKE,
         name: "Reparar Freio",
-        price: 900,
+        price: 95,
         ingredients: [
             { id: MATERIAL.REFINED_RUBBER, quantity: 8 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 9 }
@@ -137,7 +137,7 @@ const services = [
     {
         id: SERVICE.REPAIR_SUSPENSION,
         name: "Reparar Suspensão",
-        price: 900,
+        price: 95,
         ingredients: [
             { id: MATERIAL.REFINED_RUBBER, quantity: 8 },
             { id: MATERIAL.REFINED_SCRAP, quantity: 9 }
