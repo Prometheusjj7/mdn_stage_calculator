@@ -111,7 +111,7 @@ const products = [
     {
         id: PRODUCT.TIRE,
         name: "Pneu",
-        sellPrice: 150,
+        sellPrice: 50,
         ingredients: []
     },
 ];
