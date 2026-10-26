@@ -1,53 +1,114 @@
 const PRODUCT = {
+    AEROFOLIO: "aerofolio",
+    PARA_CHOQUE: "para_choque",
+    JOGO_DE_RODAS: "jogo_de_rodas",
+    LATA_DE_TINTA: "lata_de_tinta",
+    PECA_ESTATICA: "peca_estetica",
+    GARRAFA_NITRO_PEQUENA: "garrafa_nitro_pequena",
+    REFIL_NITRO: "refil_nitro",
+    REBOQUE_LOS_SANTOS: "reboque_los_santos",
+    REBOQUE_SANDY_GRAPE: "reboque_sandy_grape",
+    REBOQUE_PALETO: "reboque_paleto",
+    CERA_AUTOMOTIVA: "cera_automotiva",
+    CERA_PROFISSIONAL: "cera_profissional",
     LOCKPICK: "lockpick",
     ADVANCED_LOCKPICK: "advanced_lockpick",
     ENGINE_REPAIR_KIT: "engine_repair_kit",
-    GARRAFA_NITRO_GRANDE: "garrafa_nitro_grande",
-    RACING_SEATBELT: "racing_seatbelt",
     TIRE: "tire",
 };
 
 const products = [
     {
+        id: PRODUCT.AEROFOLIO,
+        name: "Aerofólio",
+        sellPrice: 105,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.PARA_CHOQUE,
+        name: "Para-choque",
+        sellPrice: 105,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.JOGO_DE_RODAS,
+        name: "Jogo de rodas",
+        sellPrice: 210,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.LATA_DE_TINTA,
+        name: "Lata de tinta",
+        sellPrice: 140,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.PECA_ESTATICA,
+        name: "Peça estética",
+        sellPrice: 105,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.GARRAFA_NITRO_PEQUENA,
+        name: "Garrafa Nitro Pequena",
+        sellPrice: 350,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.REFIL_NITRO,
+        name: "Refil Nitro (qualquer tamanho)",
+        sellPrice: 95,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.REBOQUE_LOS_SANTOS,
+        name: "Reboque Los Santos",
+        sellPrice: 80,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.REBOQUE_SANDY_GRAPE,
+        name: "Reboque Sandy/Grape",
+        sellPrice: 100,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.REBOQUE_PALETO,
+        name: "Reboque Paleto",
+        sellPrice: 140,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.CERA_AUTOMOTIVA,
+        name: "Cera Automativa",
+        sellPrice: 75,
+        ingredients: []
+    },
+    {
+        id: PRODUCT.CERA_PROFISSIONAL,
+        name: "Cera Profissional",
+        sellPrice: 145,
+        ingredients: []
+    },
+    {
         id: PRODUCT.LOCKPICK,
         name: "Lockpick",
-        image: "assets/images/lockpick.png",
-        sellPrice: 300,
-        ingredients: [
-            { id: MATERIAL.REFINED_ALUMINUM, quantity: 15 },
-            { id: MATERIAL.REFINED_SCRAP, quantity: 10 }
-        ]
+        sellPrice: 80,
+        ingredients: []
     },
     {
         id: PRODUCT.ADVANCED_LOCKPICK,
-        name: "Lockpick Avançado",
-        image: "assets/images/lockpick_advanced.png",
-        sellPrice: 600,
-        ingredients: [
-            { id: MATERIAL.REFINED_ALUMINUM, quantity: 30 },
-            { id: MATERIAL.REFINED_SCRAP, quantity: 20 }
-        ]
+        name: "Lockpick avançada",
+        sellPrice: 170,
+        ingredients: []
     },
     {
         id: PRODUCT.ENGINE_REPAIR_KIT,
         name: "Kit de Reparo de Motor",
-        image: "assets/images/engine_repair_kit.png",
-        sellPrice: 3000,
+        sellPrice: 280,
         ingredients: []
     },
     {
-        id: PRODUCT.GARRAFA_NITRO_GRANDE,
-        name: "Garrafa de Nitro Grande",
-        image: "assets/images/garrafa_nitro_grande.png",
-        sellPrice: 20000,
-        ingredients: []
-    }, {
-        id: PRODUCT.RACING_SEATBELT,
-        name: "Cinto de Segurança de Corrida",
-        image: "assets/images/racing_seatbelt.png",
-        sellPrice: 1160,
-        ingredients: []
-    }, {
         id: PRODUCT.TIRE,
         name: "Pneu",
         sellPrice: 150,
