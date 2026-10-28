@@ -1,19 +1,3 @@
-const MATERIAL = {
-    PLASTIC: "plastic",
-    REFINED_PLASTIC: "refined_plastic",
-    SCRAP: "scrap",
-    REFINED_SCRAP: "refined_scrap",
-    RUBBER: "rubber",
-    REFINED_RUBBER: "refined_rubber",
-    GLASS: "glass",
-    REFINED_GLASS: "refined_glass",
-    COPPER: "copper",
-    REFINED_COPPER: "refined_copper",
-    ALUMINUM: "aluminum",
-    REFINED_ALUMINUM: "refined_aluminum",
-    ELECTRONIC_COMPONENT: "electronic_component"
-};
-
 const materials = [
     {
         id: MATERIAL.REFINED_PLASTIC,
@@ -84,7 +68,7 @@ const materials = [
     {
         id: MATERIAL.ELECTRONIC_COMPONENT,
         name: "Componente Eletrônico",
-        image: "assets/images/electronic-component.png",
+        image: "assets/images/ecu_stage1.png",
         price: 6
     }
 ];
